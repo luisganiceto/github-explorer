@@ -1,0 +1,38 @@
+{
+  "name": "github-explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve",
+    "build": "cross env NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@babel/preset-react": "^7.14.5",
+    "D": "^1.0.0",
+    "babel-loader": "^8.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.4.0",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^6.0.1",
+    "react-refresh": "^0.10.0",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
